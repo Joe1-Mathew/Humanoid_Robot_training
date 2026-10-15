@@ -94,7 +94,7 @@ def launch_setup(context, *args, **kwargs):
         executable='static_transform_publisher',
         name='origin_to_model',
         output='screen',
-        arguments=['--x', '0', '--y', '0.25', '--z', '0', '--roll', '0', '--pitch', '0', '--yaw', '1.57',
+        arguments=['--x', '0', '--y', '2.0', '--z', '0.3', '--roll', '-0.10', '--pitch', '-1.57', '--yaw', '2.90',
                    '--frame-id', 'origin', '--child-frame-id', f'{model_ns}/root'],
     )
 
