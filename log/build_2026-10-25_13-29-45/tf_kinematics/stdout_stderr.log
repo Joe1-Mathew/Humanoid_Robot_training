@@ -1,0 +1,38 @@
+running egg_info
+creating ../build/tf_kinematics/tf_kinematics.egg-info
+writing ../build/tf_kinematics/tf_kinematics.egg-info/PKG-INFO
+writing dependency_links to ../build/tf_kinematics/tf_kinematics.egg-info/dependency_links.txt
+writing entry points to ../build/tf_kinematics/tf_kinematics.egg-info/entry_points.txt
+writing requirements to ../build/tf_kinematics/tf_kinematics.egg-info/requires.txt
+writing top-level names to ../build/tf_kinematics/tf_kinematics.egg-info/top_level.txt
+writing manifest file '../build/tf_kinematics/tf_kinematics.egg-info/SOURCES.txt'
+reading manifest file '../build/tf_kinematics/tf_kinematics.egg-info/SOURCES.txt'
+writing manifest file '../build/tf_kinematics/tf_kinematics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics
+copying tf_kinematics/target_slider_gui.py -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics
+copying tf_kinematics/__init__.py -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics
+copying tf_kinematics/fk_check_node.py -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics
+copying tf_kinematics/py.typed -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics
+running install
+running install_lib
+creating /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics
+copying /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics/py.typed -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics
+copying /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics/target_slider_gui.py -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics
+copying /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics/__init__.py -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics
+copying /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/build/lib/tf_kinematics/fk_check_node.py -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics
+byte-compiling /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics/target_slider_gui.py to target_slider_gui.cpython-314.pyc
+byte-compiling /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics/fk_check_node.py to fk_check_node.cpython-314.pyc
+running install_data
+creating /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/share/ament_index/resource_index/packages
+copying resource/tf_kinematics -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/share/ament_index/resource_index/packages
+copying package.xml -> /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/share/tf_kinematics
+running install_egg_info
+Copying ../build/tf_kinematics/tf_kinematics.egg-info to /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/python3.14/site-packages/tf_kinematics-0.1.0-py3.14.egg-info
+running install_scripts
+Installing analytical_ik script to /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/tf_kinematics
+Installing fk_check_node script to /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/tf_kinematics
+Installing target_slider_gui script to /home/joel/HR/ros2_ws/src/Humanoid_Robot_training/install/tf_kinematics/lib/tf_kinematics
+writing list of installed files to '/home/joel/HR/ros2_ws/src/Humanoid_Robot_training/build/tf_kinematics/install.log'

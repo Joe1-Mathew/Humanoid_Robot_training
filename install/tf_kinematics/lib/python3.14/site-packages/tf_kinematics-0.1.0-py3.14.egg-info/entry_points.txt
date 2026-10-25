@@ -1,0 +1,4 @@
+[console_scripts]
+analytical_ik = tf_kinematics.analytical_ik:main
+fk_check_node = tf_kinematics.fk_check_node:main
+target_slider_gui = tf_kinematics.target_slider_gui:main

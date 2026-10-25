@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: tf_kinematics
+Version: 0.1.0
+Summary: TF, forward kinematics, and inverse kinematics exercises
+Maintainer: user
+Maintainer-email: user@example.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary
