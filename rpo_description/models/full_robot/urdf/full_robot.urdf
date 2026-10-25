@@ -128,6 +128,70 @@
             </material>
         </visual>
     </link>
+    <link name="arm_link">
+        <inertial>
+            <mass value="0.156428" />
+            <origin xyz="0.000192282 -0.0512145 -6.25402e-05" rpy="0 -0 0" />
+            <inertia ixx="0.000315708" ixy="1.52873e-07" ixz="6.9932e-07" iyy="0.000135222" iyz="2.4699e-07" izz="0.000316439" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.132845 -4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Arm_Link.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="arm_link_1">
+        <inertial>
+            <mass value="0.156428" />
+            <origin xyz="0.000192282 -0.0502145 -6.25402e-05" rpy="0 -0 0" />
+            <inertia ixx="0.000315708" ixy="1.52873e-07" ixz="6.9932e-07" iyy="0.000135222" iyz="2.4699e-07" izz="0.000316439" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.131845 -4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Arm_Link.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="arm_link_2">
+        <inertial>
+            <mass value="0.156428" />
+            <origin xyz="0.000192282 -0.0502145 -6.25402e-05" rpy="0 -0 0" />
+            <inertia ixx="0.000315708" ixy="1.52873e-07" ixz="6.9932e-07" iyy="0.000135222" iyz="2.4699e-07" izz="0.000316439" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.131845 -4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Arm_Link.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="arm_link_3">
+        <inertial>
+            <mass value="0.156428" />
+            <origin xyz="0.000192282 -0.0502145 -6.25402e-05" rpy="0 -0 0" />
+            <inertia ixx="0.000315708" ixy="1.52873e-07" ixz="6.9932e-07" iyy="0.000135222" iyz="2.4699e-07" izz="0.000316439" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.131845 -4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Arm_Link.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
     <link name="calf_bearing_lock">
         <inertial>
             <mass value="0.00539699" />
@@ -397,11 +461,11 @@
     <link name="dm_j10010l_rotor_2">
         <inertial>
             <mass value="0.541585" />
-            <origin xyz="1.11876e-11 -0.050294 4.04778e-05" rpy="0 -0 0" />
+            <origin xyz="1.11876e-11 0.0156415 4.04778e-05" rpy="0 -0 0" />
             <inertia ixx="0.000149196" ixy="6.60082e-14" ixz="2.44111e-13" iyy="0.000221543" iyz="3.3928e-07" izz="0.000149624" />
         </inertial>
         <visual>
-            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <origin xyz="0 0.0659355 0" rpy="0 -0 0" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J10010L_Rotor.stl" scale="1 1 1" />
             </geometry>
@@ -410,11 +474,11 @@
     <link name="dm_j10010l_rotor_3">
         <inertial>
             <mass value="0.541585" />
-            <origin xyz="1.11876e-11 -0.0220585 4.04778e-05" rpy="0 -0 0" />
+            <origin xyz="1.11876e-11 -0.050294 4.04778e-05" rpy="0 -0 0" />
             <inertia ixx="0.000149196" ixy="6.60082e-14" ixz="2.44111e-13" iyy="0.000221543" iyz="3.3928e-07" izz="0.000149624" />
         </inertial>
         <visual>
-            <origin xyz="0 0.0282355 -1.77636e-14" rpy="0 -0 0" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J10010L_Rotor.stl" scale="1 1 1" />
             </geometry>
@@ -423,19 +487,6 @@
     <link name="dm_j10010l_rotor_4">
         <inertial>
             <mass value="0.541585" />
-            <origin xyz="1.11876e-11 -0.050294 4.04778e-05" rpy="0 -0 0" />
-            <inertia ixx="0.000149196" ixy="6.60082e-14" ixz="2.44111e-13" iyy="0.000221543" iyz="3.3928e-07" izz="0.000149624" />
-        </inertial>
-        <visual>
-            <origin xyz="0 0 0" rpy="0 -0 0" />
-            <geometry>
-                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J10010L_Rotor.stl" scale="1 1 1" />
-            </geometry>
-        </visual>
-    </link>
-    <link name="dm_j10010l_rotor_5">
-        <inertial>
-            <mass value="0.541585" />
             <origin xyz="1.11876e-11 -0.0220585 4.04778e-05" rpy="0 -0 0" />
             <inertia ixx="0.000149196" ixy="6.60082e-14" ixz="2.44111e-13" iyy="0.000221543" iyz="3.3928e-07" izz="0.000149624" />
         </inertial>
@@ -446,7 +497,7 @@
             </geometry>
         </visual>
     </link>
-    <link name="dm_j10010l_rotor_6">
+    <link name="dm_j10010l_rotor_5">
         <inertial>
             <mass value="0.541585" />
             <origin xyz="1.11876e-11 -0.050294 4.04778e-05" rpy="0 -0 0" />
@@ -454,6 +505,19 @@
         </inertial>
         <visual>
             <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J10010L_Rotor.stl" scale="1 1 1" />
+            </geometry>
+        </visual>
+    </link>
+    <link name="dm_j10010l_rotor_6">
+        <inertial>
+            <mass value="0.541585" />
+            <origin xyz="1.11876e-11 -0.0220585 4.04778e-05" rpy="0 -0 0" />
+            <inertia ixx="0.000149196" ixy="6.60082e-14" ixz="2.44111e-13" iyy="0.000221543" iyz="3.3928e-07" izz="0.000149624" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0.0282355 -1.77636e-14" rpy="0 -0 0" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J10010L_Rotor.stl" scale="1 1 1" />
             </geometry>
@@ -475,11 +539,11 @@
     <link name="dm_j10010l_rotor_8">
         <inertial>
             <mass value="0.541585" />
-            <origin xyz="1.11876e-11 0.0156415 4.04778e-05" rpy="0 -0 0" />
+            <origin xyz="1.11876e-11 -0.050294 4.04778e-05" rpy="0 -0 0" />
             <inertia ixx="0.000149196" ixy="6.60082e-14" ixz="2.44111e-13" iyy="0.000221543" iyz="3.3928e-07" izz="0.000149624" />
         </inertial>
         <visual>
-            <origin xyz="0 0.0659355 0" rpy="0 -0 0" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J10010L_Rotor.stl" scale="1 1 1" />
             </geometry>
@@ -653,7 +717,7 @@
     <link name="dm_j10010l_stator__1__1">
         <inertial>
             <mass value="1e-09" />
-            <origin xyz="0 0.0277355 -1.77636e-14" rpy="0 -0 0" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
             <inertia ixx="4e-14" ixy="0" ixz="0" iyy="4e-14" iyz="0" izz="4e-14" />
         </inertial>
     </link>
@@ -674,7 +738,7 @@
     <link name="dm_j10010l_stator__1__4">
         <inertial>
             <mass value="1e-09" />
-            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <origin xyz="0 0.0277355 -1.77636e-14" rpy="0 -0 0" />
             <inertia ixx="4e-14" ixy="0" ixz="0" iyy="4e-14" iyz="0" izz="4e-14" />
         </inertial>
     </link>
@@ -709,6 +773,70 @@
         </visual>
     </link>
     <link name="dm_j4340_controller_cover_1">
+        <inertial>
+            <mass value="0.0142077" />
+            <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
+            <inertia ixx="2.95073e-06" ixy="-3.07787e-08" ixz="-5.54113e-12" iyy="6.3453e-06" iyz="-5.15569e-12" izz="3.47772e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Controller_Cover.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_controller_cover_10">
+        <inertial>
+            <mass value="0.0142077" />
+            <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
+            <inertia ixx="2.95073e-06" ixy="-3.07787e-08" ixz="-5.54113e-12" iyy="6.3453e-06" iyz="-5.15569e-12" izz="3.47772e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Controller_Cover.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_controller_cover_11">
+        <inertial>
+            <mass value="0.0142077" />
+            <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
+            <inertia ixx="2.95073e-06" ixy="-3.07787e-08" ixz="-5.54113e-12" iyy="6.3453e-06" iyz="-5.15569e-12" izz="3.47772e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Controller_Cover.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_controller_cover_12">
+        <inertial>
+            <mass value="0.0142077" />
+            <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
+            <inertia ixx="2.95073e-06" ixy="-3.07787e-08" ixz="-5.54113e-12" iyy="6.3453e-06" iyz="-5.15569e-12" izz="3.47772e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Controller_Cover.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_controller_cover_13">
         <inertial>
             <mass value="0.0142077" />
             <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
@@ -788,23 +916,71 @@
             </material>
         </visual>
     </link>
-    <link name="dm_j4340_motor">
+    <link name="dm_j4340_controller_cover_6">
         <inertial>
-            <mass value="0.995728" />
-            <origin xyz="-3.75037e-18 0.0239278 9.47069e-18" rpy="0 -0 0" />
-            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+            <mass value="0.0142077" />
+            <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
+            <inertia ixx="2.95073e-06" ixy="-3.07787e-08" ixz="-5.54113e-12" iyy="6.3453e-06" iyz="-5.15569e-12" izz="3.47772e-06" />
         </inertial>
         <visual>
-            <origin xyz="-2.52358e-18 -0.00175 1.02966e-17" rpy="0 -0 0" />
+            <origin xyz="0 0 0" rpy="0 -0 0" />
             <geometry>
-                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Controller_Cover.stl" scale="1 1 1" />
             </geometry>
             <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
                 <color rgba="0.301961 0.301961 0.301961 1" />
             </material>
         </visual>
     </link>
-    <link name="dm_j4340_motor_1">
+    <link name="dm_j4340_controller_cover_7">
+        <inertial>
+            <mass value="0.0142077" />
+            <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
+            <inertia ixx="2.95073e-06" ixy="-3.07787e-08" ixz="-5.54113e-12" iyy="6.3453e-06" iyz="-5.15569e-12" izz="3.47772e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Controller_Cover.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_controller_cover_8">
+        <inertial>
+            <mass value="0.0142077" />
+            <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
+            <inertia ixx="2.95073e-06" ixy="-3.07787e-08" ixz="-5.54113e-12" iyy="6.3453e-06" iyz="-5.15569e-12" izz="3.47772e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Controller_Cover.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_controller_cover_9">
+        <inertial>
+            <mass value="0.0142077" />
+            <origin xyz="-0.00195101 0.0545971 -3.68604e-07" rpy="0 -0 0" />
+            <inertia ixx="2.95073e-06" ixy="-3.07787e-08" ixz="-5.54113e-12" iyy="6.3453e-06" iyz="-5.15569e-12" izz="3.47772e-06" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Controller_Cover.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor">
         <inertial>
             <mass value="0.995728" />
             <origin xyz="-1.22678e-18 0.0239278 -8.25923e-19" rpy="0 -0 0" />
@@ -820,7 +996,23 @@
             </material>
         </visual>
     </link>
-    <link name="dm_j4340_motor_2">
+    <link name="dm_j4340_motor_1">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-1.22678e-18 0.0256778 -8.25923e-19" rpy="0 -0 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="0 9.62965e-35 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_10">
         <inertial>
             <mass value="0.995728" />
             <origin xyz="-1.22678e-18 0.0254278 -8.25923e-19" rpy="0 -0 0" />
@@ -828,6 +1020,70 @@
         </inertial>
         <visual>
             <origin xyz="0 -0.00025 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_11">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-1.22678e-18 0.0254278 -8.25923e-19" rpy="0 -0 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="0 -0.00025 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_12">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-1.22678e-18 0.0254278 -8.25923e-19" rpy="0 -0 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="0 -0.00025 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_13">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-1.22678e-18 0.0254278 -8.25923e-19" rpy="0 -0 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="0 -0.00025 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_2">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-1.22678e-18 0.0256778 -8.25923e-19" rpy="0 -0 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="0 9.62965e-35 0" rpy="0 -0 0" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
             </geometry>
@@ -839,11 +1095,11 @@
     <link name="dm_j4340_motor_3">
         <inertial>
             <mass value="0.995728" />
-            <origin xyz="-1.22678e-18 0.0254278 -8.25923e-19" rpy="0 -0 0" />
+            <origin xyz="-1.22678e-18 0.0239278 -8.25923e-19" rpy="0 -0 0" />
             <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
         </inertial>
         <visual>
-            <origin xyz="0 -0.00025 0" rpy="0 -0 0" />
+            <origin xyz="0 -0.00175 0" rpy="0 -0 0" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
             </geometry>
@@ -855,11 +1111,11 @@
     <link name="dm_j4340_motor_4">
         <inertial>
             <mass value="0.995728" />
-            <origin xyz="-1.22678e-18 0.0254278 -8.25923e-19" rpy="0 -0 0" />
+            <origin xyz="-1.22678e-18 0.0256778 -8.25923e-19" rpy="0 -0 0" />
             <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
         </inertial>
         <visual>
-            <origin xyz="0 -0.00025 0" rpy="0 -0 0" />
+            <origin xyz="0 9.62965e-35 0" rpy="0 -0 0" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
             </geometry>
@@ -871,16 +1127,144 @@
     <link name="dm_j4340_motor_5">
         <inertial>
             <mass value="0.995728" />
-            <origin xyz="-1.22678e-18 0.0254278 -8.25923e-19" rpy="0 -0 0" />
+            <origin xyz="-1.22678e-18 0.0239278 -8.25923e-19" rpy="0 -0 0" />
             <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
         </inertial>
         <visual>
-            <origin xyz="0 -0.00025 0" rpy="0 -0 0" />
+            <origin xyz="0 -0.00175 0" rpy="0 -0 0" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
             </geometry>
             <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
                 <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_6">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-1.22678e-18 0.0239278 -8.25923e-19" rpy="0 -0 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="0 -0.00175 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_7">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-1.22688e-18 0.0256778 -8.25778e-19" rpy="0 0.000118363 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="0 9.62965e-35 0" rpy="0 0.000118363 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_8">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-3.75037e-18 0.0239278 9.47069e-18" rpy="0 -0 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="-2.52358e-18 -0.00175 1.02966e-17" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="dm_j4340_motor_9">
+        <inertial>
+            <mass value="0.995728" />
+            <origin xyz="-1.22678e-18 0.0239278 -8.25923e-19" rpy="0 -0 0" />
+            <inertia ixx="0.000398107" ixy="0" ixz="-8.86886e-08" iyy="0.000402328" iyz="0" izz="0.000398414" />
+        </inertial>
+        <visual>
+            <origin xyz="0 -0.00175 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/DM_J4340_Motor.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.301961_0.301961_0.301961_0.000000_0.000000">
+                <color rgba="0.301961 0.301961 0.301961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="end_cap">
+        <inertial>
+            <mass value="0.134915" />
+            <origin xyz="4.78497e-10 -0.00388189 -3.74047e-11" rpy="0 -0 0" />
+            <inertia ixx="5.64465e-05" ixy="-7.61733e-13" ixz="-1.22959e-13" iyy="8.36972e-05" iyz="6.82812e-14" izz="5.64465e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.0148448 -4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/End_Cap.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="end_cap_1">
+        <inertial>
+            <mass value="0.134915" />
+            <origin xyz="4.78497e-10 -0.00388189 -3.74047e-11" rpy="0 -0 0" />
+            <inertia ixx="5.64465e-05" ixy="-7.61733e-13" ixz="-1.22959e-13" iyy="8.36972e-05" iyz="6.82812e-14" izz="5.64465e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.0148448 -4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/End_Cap.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="end_cap_2">
+        <inertial>
+            <mass value="0.134915" />
+            <origin xyz="4.78497e-10 -0.00288189 -3.74047e-11" rpy="0 -0 0" />
+            <inertia ixx="5.64465e-05" ixy="-7.61733e-13" ixz="-1.22959e-13" iyy="8.36972e-05" iyz="6.82812e-14" izz="5.64465e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.0138448 -4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/End_Cap.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="end_cap_3">
+        <inertial>
+            <mass value="0.134915" />
+            <origin xyz="4.78497e-10 -0.00388189 -3.74047e-11" rpy="0 -0 0" />
+            <inertia ixx="5.64465e-05" ixy="-7.61733e-13" ixz="-1.22959e-13" iyy="8.36972e-05" iyz="6.82812e-14" izz="5.64465e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.0148448 -4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/End_Cap.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
             </material>
         </visual>
     </link>
@@ -1174,6 +1558,134 @@
     </link>
     <link name="right_leg__1_" />
     <link name="root" />
+    <link name="shoulder_bracket_a">
+        <inertial>
+            <mass value="0.0829317" />
+            <origin xyz="0.0259919 1.8163e-09 0.0105823" rpy="0 -0 0" />
+            <inertia ixx="3.14687e-05" ixy="5.55294e-08" ixz="-1.67535e-05" iyy="6.42204e-05" iyz="1.82603e-12" izz="6.07519e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0867597 -0.183595 4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Shoulder_Bracket_A.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_bracket_a_1">
+        <inertial>
+            <mass value="0.0829317" />
+            <origin xyz="0.0259919 1.8163e-09 0.0105823" rpy="0 -0 0" />
+            <inertia ixx="3.14687e-05" ixy="5.55294e-08" ixz="-1.67535e-05" iyy="6.42204e-05" iyz="1.82603e-12" izz="6.07519e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0867597 -0.183595 4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Shoulder_Bracket_A.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_bracket_a_2">
+        <inertial>
+            <mass value="0.0829317" />
+            <origin xyz="0.0259919 1.8163e-09 0.0105823" rpy="0 -0 0" />
+            <inertia ixx="3.14687e-05" ixy="5.55294e-08" ixz="-1.67535e-05" iyy="6.42204e-05" iyz="1.82603e-12" izz="6.07519e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0867597 -0.183595 4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Shoulder_Bracket_A.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_bracket_a_3">
+        <inertial>
+            <mass value="0.0829317" />
+            <origin xyz="0.0259919 1.8163e-09 0.0105823" rpy="0 -0 0" />
+            <inertia ixx="3.14687e-05" ixy="5.55294e-08" ixz="-1.67535e-05" iyy="6.42204e-05" iyz="1.82603e-12" izz="6.07519e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0867597 -0.183595 4.69498e-06" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Shoulder_Bracket_A.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_bracket_b">
+        <inertial>
+            <mass value="0.0758319" />
+            <origin xyz="1.74424e-05 -0.0241098 -0.00377325" rpy="0 -0 0" />
+            <inertia ixx="5.04398e-05" ixy="-2.50866e-09" ixz="-1.91866e-08" iyy="2.51758e-05" iyz="-1.55732e-05" izz="4.03344e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.183595 -0.0199953" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Shoulder_Bracket_B.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_bracket_b_1">
+        <inertial>
+            <mass value="0.0758319" />
+            <origin xyz="1.74424e-05 -0.0241098 -0.00377325" rpy="0 -0 0" />
+            <inertia ixx="5.04398e-05" ixy="-2.50866e-09" ixz="-1.91866e-08" iyy="2.51758e-05" iyz="-1.55732e-05" izz="4.03344e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.183595 -0.0199953" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Shoulder_Bracket_B.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_bracket_b_2">
+        <inertial>
+            <mass value="0.0758319" />
+            <origin xyz="1.74424e-05 -0.0241098 -0.00377325" rpy="0 -0 0" />
+            <inertia ixx="5.04398e-05" ixy="-2.50866e-09" ixz="-1.91866e-08" iyy="2.51758e-05" iyz="-1.55732e-05" izz="4.03344e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.183595 -0.0199953" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Shoulder_Bracket_B.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
+    <link name="shoulder_bracket_b_3">
+        <inertial>
+            <mass value="0.0758319" />
+            <origin xyz="1.74424e-05 -0.0241098 -0.00377325" rpy="0 -0 0" />
+            <inertia ixx="5.04398e-05" ixy="-2.50866e-09" ixz="-1.91866e-08" iyy="2.51758e-05" iyz="-1.55732e-05" izz="4.03344e-05" />
+        </inertial>
+        <visual>
+            <origin xyz="0.0307597 -0.183595 -0.0199953" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package://rpo_description/models/full_robot/meshes/Shoulder_Bracket_B.stl" scale="1 1 1" />
+            </geometry>
+            <material name="0.901961_0.901961_0.901961_0.000000_0.000000">
+                <color rgba="0.901961 0.901961 0.901961 1" />
+            </material>
+        </visual>
+    </link>
     <link name="torso_back_plate">
         <inertial>
             <mass value="0.440026" />
@@ -1321,11 +1833,11 @@
     <link name="waist_bearing_mount">
         <inertial>
             <mass value="0.28842" />
-            <origin xyz="0.000142185 -3.2041e-10 0.00645015" rpy="0 -0 0" />
+            <origin xyz="0.000142185 1.6509e-08 0.00645015" rpy="0 -0 0.000118363" />
             <inertia ixx="0.000577605" ixy="1.51735e-11" ixz="3.89632e-08" iyy="0.000398266" iyz="-1.13391e-12" izz="0.000961039" />
         </inertial>
         <visual>
-            <origin xyz="-2.52435e-29 2.77556e-17 0" rpy="0 -0 0" />
+            <origin xyz="-3.28523e-21 2.77556e-17 0" rpy="0 -0 0.000118363" />
             <geometry>
                 <mesh filename="package://rpo_description/models/full_robot/meshes/Waist_Bearing_Mount.stl" scale="1 1 1" />
             </geometry>
@@ -1354,13 +1866,13 @@
         <origin xyz="-0.0148812 0.025 -0.0991492" rpy="1.5708 3.3635e-15 -3.14159" />
         <axis xyz="0 1 1.19142e-27" />
         <parent link="hip_waist_bracket" />
-        <child link="dm_j10010l_stator__1__1" />
+        <child link="dm_j10010l_stator__1__4" />
     </joint>
     <joint name="fastened_10" type="fixed">
         <origin xyz="0.0195 -0.0625 0.001" rpy="-1.5708 -4.44089e-16 1.5708" />
         <axis xyz="0 -1 0" />
         <parent link="torso_shoulder_bracket_1" />
-        <child link="dm_j4340_motor" />
+        <child link="dm_j4340_motor_8" />
     </joint>
     <joint name="fastened_10_1" type="fixed">
         <origin xyz="-0.025 -0.19 0.0055" rpy="-4.76208e-15 -3.07227e-15 -1.5708" />
@@ -1381,10 +1893,10 @@
         <child link="hip_connector_b" />
     </joint>
     <joint name="fastened_11" type="fixed">
-        <origin xyz="0.0195 0.0625 -1.84575e-15" rpy="-1.5708 -0 -1.5708" />
+        <origin xyz="0.0195 0.0625 0" rpy="-1.5708 -0 -1.5708" />
         <axis xyz="0 -1 0" />
         <parent link="torso_shoulder_bracket" />
-        <child link="dm_j4340_motor_1" />
+        <child link="dm_j4340_motor_9" />
     </joint>
     <joint name="fastened_11_1" type="fixed">
         <origin xyz="-0.062 0.0135 5.55112e-16" rpy="0 1.5708 3.14159" />
@@ -1401,13 +1913,13 @@
     <joint name="fastened_12" type="fixed">
         <origin xyz="6.66134e-16 -0.00025 0.0135" rpy="1.5708 -1.06076e-16 7.4851e-17" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j4340_motor_4" />
+        <parent link="dm_j4340_motor_12" />
         <child link="ankle_output_rotor_3" />
     </joint>
     <joint name="fastened_12_1" type="fixed">
         <origin xyz="9.99201e-16 -0.00025 0.0135" rpy="1.5708 1.60341e-14 -1.60341e-14" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j4340_motor_3" />
+        <parent link="dm_j4340_motor_11" />
         <child link="ankle_output_rotor" />
     </joint>
     <joint name="fastened_12_2" type="fixed">
@@ -1468,7 +1980,7 @@
         <origin xyz="-1.23165e-16 -0.25 0.0035" rpy="-1.5708 -5.02406e-29 -3.14159" />
         <axis xyz="0 -1 0" />
         <parent link="upper_leg_1" />
-        <child link="dm_j10010l_rotor_8" />
+        <child link="dm_j10010l_rotor_2" />
     </joint>
     <joint name="fastened_2_2" type="fixed">
         <origin xyz="3.46945e-18 -0.25 0.0045" rpy="-1.5708 2.21923e-15 -3.14159" />
@@ -1480,7 +1992,7 @@
         <origin xyz="-0.0725 1.0842e-17 -0.009" rpy="1.5708 2.87703e-17 2.43089e-17" />
         <axis xyz="0 -1 -1.19142e-27" />
         <parent link="hip_plate" />
-        <child link="dm_j10010l_rotor_5" />
+        <child link="dm_j10010l_rotor_6" />
     </joint>
     <joint name="fastened_2_4" type="fixed">
         <origin xyz="0 0 0" rpy="0.523599 -5.55112e-17 -1.5708" />
@@ -1495,70 +2007,106 @@
         <child link="waist_bearing" />
     </joint>
     <joint name="fastened_3_1" type="fixed">
+        <origin xyz="0.056 -3.77476e-15 0.01825" rpy="-1.5708 -6.77626e-21 -6.77626e-21" />
+        <axis xyz="0 -1 0" />
+        <parent link="shoulder_bracket_a_1" />
+        <child link="dm_j4340_motor_3" />
+    </joint>
+    <joint name="fastened_3_2" type="fixed">
         <origin xyz="3.36883e-15 -0.19 -0.0005" rpy="-1.5708 4.44089e-16 1.5708" />
         <axis xyz="0 -1 0" />
         <parent link="lower_leg_1" />
-        <child link="dm_j4340_motor_5" />
+        <child link="dm_j4340_motor_13" />
     </joint>
-    <joint name="fastened_3_2" type="fixed">
+    <joint name="fastened_3_3" type="fixed">
         <origin xyz="3.48159e-15 -0.19 -0.0005" rpy="-1.5708 -1.55431e-15 1.5708" />
         <axis xyz="0 -1 0" />
         <parent link="lower_leg" />
-        <child link="dm_j4340_motor_2" />
+        <child link="dm_j4340_motor_10" />
     </joint>
-    <joint name="fastened_3_3" type="fixed">
+    <joint name="fastened_3_4" type="fixed">
         <origin xyz="-1.06443e-14 0.063 -0.023" rpy="-5.91202e-34 -8.29804e-17 1.42492e-17" />
         <axis xyz="-1 0 0" />
         <parent link="hip_plate" />
         <child link="hip_plate_1" />
     </joint>
+    <joint name="fastened_3_5" type="fixed">
+        <origin xyz="0.056 0 0.01825" rpy="-1.5708 -1.11022e-16 -1.5708" />
+        <axis xyz="0 -1 0" />
+        <parent link="shoulder_bracket_a_2" />
+        <child link="dm_j4340_motor_6" />
+    </joint>
     <joint name="fastened_4" type="fixed">
-        <origin xyz="-0.0605 -0.06 0.0085" rpy="0 -1.5708 -3.88434e-33" />
+        <origin xyz="-0.0604929 -0.0600072 0.0085" rpy="0 -1.5708 0.000118363" />
         <axis xyz="0 0 -1" />
         <parent link="waist_bearing_mount" />
         <child link="torso_front_plate" />
     </joint>
     <joint name="fastened_4_1" type="fixed">
+        <origin xyz="-5.55112e-17 0.00175 -2.08167e-17" rpy="-3.14159 5.2638e-20 -1.1189e-16" />
+        <axis xyz="-0 -1 -0" />
+        <parent link="dm_j4340_motor_2" />
+        <child link="arm_link" />
+    </joint>
+    <joint name="fastened_4_2" type="fixed">
         <origin xyz="3.35496e-15 -0.12 -0.0005" rpy="-1.5708 4.44089e-16 1.5708" />
         <axis xyz="0 -1 0" />
         <parent link="lower_leg_1" />
-        <child link="dm_j4340_motor_4" />
+        <child link="dm_j4340_motor_12" />
     </joint>
-    <joint name="fastened_4_2" type="fixed">
+    <joint name="fastened_4_3" type="fixed">
         <origin xyz="3.42781e-15 -0.12 -0.0005" rpy="-1.5708 7.77156e-16 1.5708" />
         <axis xyz="0 -1 0" />
         <parent link="lower_leg" />
-        <child link="dm_j4340_motor_3" />
+        <child link="dm_j4340_motor_11" />
     </joint>
-    <joint name="fastened_4_3" type="fixed">
+    <joint name="fastened_4_4" type="fixed">
         <origin xyz="-5.55112e-17 0.02385 0.0715" rpy="8.23639e-47 -8.32667e-17 -1.97832e-30" />
         <axis xyz="0 -1 -1.19142e-27" />
         <parent link="hip_connector_a" />
-        <child link="dm_j10010l_rotor_3" />
+        <child link="dm_j10010l_rotor_4" />
+    </joint>
+    <joint name="fastened_4_5" type="fixed">
+        <origin xyz="-3.46945e-18 0.00175 -2.77556e-17" rpy="3.14159 0.000118363 -7.88937e-31" />
+        <axis xyz="-0 -1 -0" />
+        <parent link="dm_j4340_motor_7" />
+        <child link="arm_link_3" />
     </joint>
     <joint name="fastened_5" type="fixed">
-        <origin xyz="0.0605 0.06 0.0085" rpy="0 1.5708 -1.04329e-16" />
+        <origin xyz="0.0604929 0.0600072 0.0085" rpy="0 1.5708 0.000118363" />
         <axis xyz="0 0 -1" />
         <parent link="waist_bearing_mount" />
         <child link="torso_back_plate" />
     </joint>
     <joint name="fastened_5_1" type="fixed">
+        <origin xyz="-5.55112e-17 0.00175 1.38778e-17" rpy="3.14159 -1.35525e-20 -9.87061e-21" />
+        <axis xyz="-0 -1 -0" />
+        <parent link="dm_j4340_motor_1" />
+        <child link="arm_link_1" />
+    </joint>
+    <joint name="fastened_5_2" type="fixed">
         <origin xyz="-0.0065 -0.289 0.002575" rpy="-1.5708 -2.46646e-17 3.14159" />
         <axis xyz="0 1 0" />
         <parent link="lower_leg_1" />
         <child link="calf_bearing_lock_2" />
     </joint>
-    <joint name="fastened_5_2" type="fixed">
+    <joint name="fastened_5_3" type="fixed">
         <origin xyz="-0.0065 -0.289 0.002575" rpy="-1.5708 5.25226e-16 -3.14159" />
         <axis xyz="0 1 0" />
         <parent link="lower_leg" />
         <child link="calf_bearing_lock_1" />
     </joint>
-    <joint name="fastened_5_3" type="fixed">
+    <joint name="fastened_5_4" type="fixed">
         <origin xyz="1.38778e-17 0.02385 0.0715" rpy="1.94289e-16 3.96948e-17 7.85687e-17" />
         <axis xyz="0 1 1.19142e-27" />
         <parent link="hip_connector_a_3" />
         <child link="dm_j10010l_stator__1_" />
+    </joint>
+    <joint name="fastened_5_5" type="fixed">
+        <origin xyz="-1.73472e-17 -0.117 -2.77556e-17" rpy="-9.86076e-31 0 0" />
+        <axis xyz="0 1 0" />
+        <parent link="arm_link_3" />
+        <child link="end_cap_2" />
     </joint>
     <joint name="fastened_6" type="fixed">
         <origin xyz="-0.218676 -0.18 0.002" rpy="1.5708 3.04855e-16 -1.2341e-15" />
@@ -1567,46 +2115,70 @@
         <child link="torso_shoulder_bracket_1" />
     </joint>
     <joint name="fastened_6_1" type="fixed">
+        <origin xyz="5.55112e-17 -0.1175 1.04083e-16" rpy="-1.57772e-30 1.06911e-50 1.35525e-20" />
+        <axis xyz="0 1 0" />
+        <parent link="arm_link" />
+        <child link="end_cap_1" />
+    </joint>
+    <joint name="fastened_6_2" type="fixed">
         <origin xyz="-0.0065 -0.289 -0.041275" rpy="1.5708 2.81655e-18 2.38762e-18" />
         <axis xyz="0 1 0" />
         <parent link="lower_leg_1" />
         <child link="calf_bearing_lock_3" />
     </joint>
-    <joint name="fastened_6_2" type="fixed">
+    <joint name="fastened_6_3" type="fixed">
         <origin xyz="-0.0065 -0.289 -0.041275" rpy="1.5708 5.81376e-16 6.36248e-16" />
         <axis xyz="0 1 0" />
         <parent link="lower_leg" />
         <child link="calf_bearing_lock" />
     </joint>
-    <joint name="fastened_6_3" type="fixed">
+    <joint name="fastened_6_4" type="fixed">
         <origin xyz="0.0428779 -0.0377 0.0311526" rpy="-1.5708 3.10311e-16 3.14159" />
         <axis xyz="0 0 -1" />
         <parent link="dm_j10010l_stator__1_" />
         <child link="hip_connector_b_1" />
     </joint>
+    <joint name="fastened_6_5" type="fixed">
+        <origin xyz="0 -0.013 5.55112e-17" rpy="3.14159 1.90742e-30 -1.5708" />
+        <axis xyz="-1 0 0" />
+        <parent link="end_cap_2" />
+        <child link="shoulder_bracket_a_3" />
+    </joint>
     <joint name="fastened_7" type="fixed">
+        <origin xyz="1.11022e-16 -0.1165 2.70617e-16" rpy="4.84861e-25 2.64856e-35 -8.0245e-25" />
+        <axis xyz="0 1 0" />
+        <parent link="arm_link_1" />
+        <child link="end_cap" />
+    </joint>
+    <joint name="fastened_7_1" type="fixed">
         <origin xyz="-0.218676 0.06 0.002" rpy="-1.5708 -5.10251e-18 -8.31764e-16" />
         <axis xyz="0 0 -1" />
         <parent link="torso_back_plate" />
         <child link="torso_shoulder_bracket" />
     </joint>
-    <joint name="fastened_7_1" type="fixed">
+    <joint name="fastened_7_2" type="fixed">
         <origin xyz="0.062 -0.0135 -1.11022e-16" rpy="0 1.5708 1.17845e-27" />
         <axis xyz="-1 -0 -0" />
         <parent link="foot_1" />
         <child link="ankle_roll_connector_2" />
     </joint>
-    <joint name="fastened_7_2" type="fixed">
+    <joint name="fastened_7_3" type="fixed">
         <origin xyz="-0.03 2.77556e-17 0.011" rpy="0 -1.5708 5.42238e-27" />
         <axis xyz="0 0 -1" />
         <parent link="ankle_roll_connector_1" />
         <child link="foot" />
     </joint>
-    <joint name="fastened_7_3" type="fixed">
+    <joint name="fastened_7_4" type="fixed">
         <origin xyz="-0.0428779 -0.0372 0.0311526" rpy="-1.5708 -5.58745e-16 -3.14159" />
         <axis xyz="0 0 -1" />
-        <parent link="dm_j10010l_rotor_3" />
+        <parent link="dm_j10010l_rotor_4" />
         <child link="hip_connector_b_2" />
+    </joint>
+    <joint name="fastened_7_5" type="fixed">
+        <origin xyz="0.056 -3.46945e-18 0.01825" rpy="-1.5708 -0 -1.5708" />
+        <axis xyz="0 -1 0" />
+        <parent link="shoulder_bracket_a_3" />
+        <child link="dm_j4340_motor_5" />
     </joint>
     <joint name="fastened_8" type="fixed">
         <origin xyz="-0.013 0.013 0.002" rpy="0 -1.5708 1.5708" />
@@ -1620,317 +2192,459 @@
         <parent link="hip_connector_a_1" />
         <child link="dm_j10010l_stator__5_" />
     </joint>
+    <joint name="fastened_8_2" type="fixed">
+        <origin xyz="0 0.00175 0" rpy="3.14159 -3.15544e-30 -7.88861e-30" />
+        <axis xyz="-0 -1 -0" />
+        <parent link="dm_j4340_motor_4" />
+        <child link="arm_link_2" />
+    </joint>
+    <joint name="fastened_8_3" type="fixed">
+        <origin xyz="0 -0.014 3.46945e-18" rpy="-1.5708 -0 -1.5708" />
+        <axis xyz="-1 0 0" />
+        <parent link="end_cap" />
+        <child link="shoulder_bracket_a" />
+    </joint>
     <joint name="fastened_9" type="fixed">
+        <origin xyz="0.056 1.14492e-16 0.01825" rpy="-1.5708 1.11022e-16 -1.5708" />
+        <axis xyz="0 -1 0" />
+        <parent link="shoulder_bracket_a" />
+        <child link="dm_j4340_motor" />
+    </joint>
+    <joint name="fastened_9_1" type="fixed">
         <origin xyz="-0.013 -0.133 0.002" rpy="0 -1.5708 1.5708" />
         <axis xyz="0 0 -1" />
         <parent link="torso_back_plate" />
         <child link="torso_side_plate_1" />
     </joint>
-    <joint name="fastened_9_1" type="fixed">
+    <joint name="fastened_9_2" type="fixed">
         <origin xyz="6.93889e-17 0.01985 0.0715" rpy="0 1.5708 2.28976e-15" />
         <axis xyz="0 1 1.19142e-27" />
         <parent link="hip_connector_a_2" />
         <child link="dm_j10010l_stator__2_" />
     </joint>
+    <joint name="fastened_9_3" type="fixed">
+        <origin xyz="0 -0.117 0" rpy="-8.87469e-31 0 0" />
+        <axis xyz="0 1 0" />
+        <parent link="arm_link_2" />
+        <child link="end_cap_3" />
+    </joint>
     <joint name="group_1__1__fastened_joint" type="fixed">
         <origin xyz="1.38778e-17 0 -1.73472e-18" rpy="-2.77556e-17 -1.15556e-32 4.62223e-33" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_rotor_7" />
-        <child link="dm_j10010l_side_cover_7" />
+        <parent link="dm_j10010l_rotor_8" />
+        <child link="dm_j10010l_side_cover_8" />
     </joint>
     <joint name="group_1__1__fastened_joint_1" type="fixed">
         <origin xyz="1.38778e-17 0 -1.73472e-18" rpy="-2.77556e-17 -1.15556e-32 4.62223e-33" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_side_cover_7" />
-        <child link="dm_j10010l_controller_cover_6" />
+        <parent link="dm_j10010l_side_cover_8" />
+        <child link="dm_j10010l_controller_cover_7" />
     </joint>
     <joint name="group_1__1__fastened_joint_2" type="fixed">
         <origin xyz="1.38778e-17 0.0277355 -1.77644e-14" rpy="-2.77556e-17 -1.15556e-32 4.62223e-33" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_stator__1__3" />
-        <child link="dm_j10010l_rotor_7" />
+        <child link="dm_j10010l_rotor_8" />
     </joint>
     <joint name="group_1__2__fastened_joint" type="fixed">
         <origin xyz="0 0 -1.38778e-17" rpy="0 0 -1.97215e-31" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_rotor_2" />
-        <child link="dm_j10010l_side_cover_3" />
+        <parent link="dm_j10010l_rotor_3" />
+        <child link="dm_j10010l_side_cover_4" />
     </joint>
     <joint name="group_1__2__fastened_joint_1" type="fixed">
         <origin xyz="1.38778e-17 0.0277355 -1.77774e-14" rpy="0 0 -1.97215e-31" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_stator__2_" />
-        <child link="dm_j10010l_rotor_2" />
+        <child link="dm_j10010l_rotor_3" />
     </joint>
     <joint name="group_1__2__fastened_joint_2" type="fixed">
         <origin xyz="0 0 -1.38778e-17" rpy="0 0 -1.97215e-31" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_side_cover_3" />
-        <child link="dm_j10010l_controller_cover_2" />
+        <parent link="dm_j10010l_side_cover_4" />
+        <child link="dm_j10010l_controller_cover_3" />
     </joint>
     <joint name="group_1__3__fastened_joint" type="fixed">
         <origin xyz="0 0.0282355 -1.77636e-14" rpy="-1.67122e-63 -4.93038e-32 6.77927e-32" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_rotor_3" />
+        <parent link="dm_j10010l_rotor_4" />
         <child link="dm_j10010l_rotor__3_" />
     </joint>
     <joint name="group_1__3__fastened_joint_1" type="fixed">
         <origin xyz="-1.38778e-17 -6.93889e-18 0" rpy="-1.67122e-63 -4.93038e-32 6.77927e-32" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_side_cover_5" />
-        <child link="dm_j10010l_controller_cover_5" />
+        <parent link="dm_j10010l_side_cover_6" />
+        <child link="dm_j10010l_controller_cover_6" />
     </joint>
     <joint name="group_1__3__fastened_joint_2" type="fixed">
         <origin xyz="-1.38778e-17 -6.93889e-18 0" rpy="-1.67122e-63 -4.93038e-32 6.77927e-32" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_rotor__3_" />
-        <child link="dm_j10010l_side_cover_5" />
+        <child link="dm_j10010l_side_cover_6" />
     </joint>
     <joint name="group_1__4__fastened_joint" type="fixed">
         <origin xyz="0 0 -1.89327e-29" rpy="-2.77556e-17 -1.15556e-33 2.31112e-33" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_side_cover_2" />
-        <child link="dm_j10010l_controller_cover_4" />
+        <parent link="dm_j10010l_side_cover_3" />
+        <child link="dm_j10010l_controller_cover_5" />
     </joint>
     <joint name="group_1__4__fastened_joint_1" type="fixed">
         <origin xyz="0 0 -1.89327e-29" rpy="-2.77556e-17 -1.15556e-33 2.31112e-33" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_rotor__4_" />
-        <child link="dm_j10010l_side_cover_2" />
+        <child link="dm_j10010l_side_cover_3" />
     </joint>
     <joint name="group_1__4__fastened_joint_2" type="fixed">
         <origin xyz="0 0.0282355 -1.77644e-14" rpy="-2.77556e-17 -1.15556e-33 2.31112e-33" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_rotor_5" />
+        <parent link="dm_j10010l_rotor_6" />
         <child link="dm_j10010l_rotor__4_" />
     </joint>
     <joint name="group_1__5__fastened_joint" type="fixed">
         <origin xyz="1.38778e-17 0.0277355 -1.77636e-14" rpy="3.69779e-32 1.13947e-64 -6.16298e-33" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_stator__5_" />
-        <child link="dm_j10010l_rotor_4" />
+        <child link="dm_j10010l_rotor_5" />
     </joint>
     <joint name="group_1__5__fastened_joint_1" type="fixed">
         <origin xyz="0 0 -2.77556e-17" rpy="3.69779e-32 1.13947e-64 -6.16298e-33" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_rotor_4" />
-        <child link="dm_j10010l_side_cover_6" />
+        <parent link="dm_j10010l_rotor_5" />
+        <child link="dm_j10010l_side_cover_7" />
     </joint>
     <joint name="group_1__5__fastened_joint_2" type="fixed">
         <origin xyz="0 0 -2.77556e-17" rpy="3.69779e-32 1.13947e-64 -6.16298e-33" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_side_cover_6" />
-        <child link="dm_j10010l_controller_cover_7" />
+        <parent link="dm_j10010l_side_cover_7" />
+        <child link="dm_j10010l_controller_cover_8" />
     </joint>
     <joint name="group_1_fastened_joint" type="fixed">
-        <origin xyz="-3.46945e-18 -0.00175 0" rpy="0 -0 7.00649e-46" />
+        <origin xyz="0 -0.00175 6.93889e-18" rpy="-9.86076e-32 7.88861e-31 6.77626e-21" />
         <axis xyz="0 0 1" />
         <parent link="dm_j4340_motor" />
         <child link="dm_j4340_controller_cover" />
     </joint>
     <joint name="group_1_fastened_joint_1" type="fixed">
-        <origin xyz="0 0.0277355 -1.77636e-14" rpy="2.46519e-32 -8.59206e-33 -3.9443e-31" />
-        <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_stator__1__1" />
-        <child link="dm_j10010l_rotor" />
+        <origin xyz="-6.93889e-18 -0.00175 0" rpy="0 0 -1.53101e-37" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_8" />
+        <child link="dm_j4340_controller_cover_8" />
     </joint>
     <joint name="group_1_fastened_joint_10" type="fixed">
-        <origin xyz="1.11022e-16 -0.00025 1.73472e-18" rpy="6.24836e-33 3.9443e-31 1.23227e-63" />
-        <axis xyz="0 0 1" />
-        <parent link="dm_j4340_motor_2" />
-        <child link="dm_j4340_controller_cover_2" />
+        <origin xyz="-1.73472e-18 0.0659355 5.55112e-17" rpy="1.2326e-32 1.70026e-74 -2.75883e-42" />
+        <axis xyz="-0 -0 -1" />
+        <parent link="dm_j10010l_rotor_2" />
+        <child link="dm_j10010l_side_cover_2" />
     </joint>
     <joint name="group_1_fastened_joint_11" type="fixed">
+        <origin xyz="-1.73472e-18 -3.46945e-18 5.55112e-17" rpy="1.2326e-32 1.70026e-74 -2.75883e-42" />
+        <axis xyz="-0 -0 -1" />
+        <parent link="dm_j10010l_side_cover_2" />
+        <child link="dm_j10010l_controller_cover_2" />
+    </joint>
+    <joint name="group_1_fastened_joint_12" type="fixed">
+        <origin xyz="1.11022e-16 -0.00025 0" rpy="1.50704e-32 -0 0" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_12" />
+        <child link="dm_j4340_controller_cover_12" />
+    </joint>
+    <joint name="group_1_fastened_joint_13" type="fixed">
+        <origin xyz="1.11022e-16 -0.00025 1.73472e-18" rpy="6.24836e-33 3.9443e-31 1.23227e-63" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_10" />
+        <child link="dm_j4340_controller_cover_10" />
+    </joint>
+    <joint name="group_1_fastened_joint_14" type="fixed">
         <origin xyz="0 0.0659355 0" rpy="0 -0 7.00649e-46" />
         <axis xyz="0 0 1" />
         <parent link="dm_j10010l_rotor_1" />
-        <child link="dm_j10010l_stator__1__4" />
+        <child link="dm_j10010l_stator__1__1" />
     </joint>
-    <joint name="group_1_fastened_joint_12" type="fixed">
+    <joint name="group_1_fastened_joint_15" type="fixed">
         <origin xyz="0 0.0659355 0" rpy="0 -0 7.00649e-46" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_rotor_1" />
         <child link="dm_j10010l_side_cover_1" />
     </joint>
-    <joint name="group_1_fastened_joint_13" type="fixed">
+    <joint name="group_1_fastened_joint_16" type="fixed">
         <origin xyz="-1.73472e-18 0 -5.55112e-17" rpy="0 -0 7.00649e-46" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_side_cover_1" />
         <child link="dm_j10010l_controller_cover_1" />
     </joint>
-    <joint name="group_1_fastened_joint_14" type="fixed">
+    <joint name="group_1_fastened_joint_17" type="fixed">
         <origin xyz="1.11022e-16 -0.00025 -1.73472e-18" rpy="-2.53841e-32 5.00613e-63 3.9443e-31" />
         <axis xyz="0 0 1" />
-        <parent link="dm_j4340_motor_3" />
-        <child link="dm_j4340_controller_cover_3" />
+        <parent link="dm_j4340_motor_11" />
+        <child link="dm_j4340_controller_cover_11" />
     </joint>
-    <joint name="group_1_fastened_joint_15" type="fixed">
+    <joint name="group_1_fastened_joint_18" type="fixed">
         <origin xyz="0 0.0277355 -1.77358e-14" rpy="-6.0831e-64 1.92593e-32 -6.31705e-32" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_stator__1_" />
-        <child link="dm_j10010l_rotor_6" />
+        <child link="dm_j10010l_rotor_7" />
     </joint>
-    <joint name="group_1_fastened_joint_16" type="fixed">
+    <joint name="group_1_fastened_joint_19" type="fixed">
         <origin xyz="-1.38778e-17 1.38778e-17 0" rpy="-6.0831e-64 1.92593e-32 -6.31705e-32" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_rotor_6" />
-        <child link="dm_j10010l_side_cover_4" />
-    </joint>
-    <joint name="group_1_fastened_joint_17" type="fixed">
-        <origin xyz="-1.38778e-17 1.38778e-17 0" rpy="-6.0831e-64 1.92593e-32 -6.31705e-32" />
-        <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_side_cover_4" />
-        <child link="dm_j10010l_controller_cover_3" />
+        <parent link="dm_j10010l_rotor_7" />
+        <child link="dm_j10010l_side_cover_5" />
     </joint>
     <joint name="group_1_fastened_joint_2" type="fixed">
+        <origin xyz="0 0.0277355 -1.77636e-14" rpy="2.46519e-32 -8.59206e-33 -3.9443e-31" />
+        <axis xyz="-0 -0 -1" />
+        <parent link="dm_j10010l_stator__1__4" />
+        <child link="dm_j10010l_rotor" />
+    </joint>
+    <joint name="group_1_fastened_joint_20" type="fixed">
+        <origin xyz="-1.38778e-17 1.38778e-17 0" rpy="-6.0831e-64 1.92593e-32 -6.31705e-32" />
+        <axis xyz="-0 -0 -1" />
+        <parent link="dm_j10010l_side_cover_5" />
+        <child link="dm_j10010l_controller_cover_4" />
+    </joint>
+    <joint name="group_1_fastened_joint_21" type="fixed">
+        <origin xyz="2.77556e-17 0 -3.46945e-18" rpy="3.34096e-52 -6.77626e-21 -9.86076e-32" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_1" />
+        <child link="dm_j4340_controller_cover_1" />
+    </joint>
+    <joint name="group_1_fastened_joint_22" type="fixed">
+        <origin xyz="0 1.38778e-17 0" rpy="-3.36312e-44 0 0" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_4" />
+        <child link="dm_j4340_controller_cover_4" />
+    </joint>
+    <joint name="group_1_fastened_joint_23" type="fixed">
+        <origin xyz="0 0 -2.77556e-17" rpy="-4.66859e-35 0.000118363 -7.88861e-31" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_7" />
+        <child link="dm_j4340_controller_cover_7" />
+    </joint>
+    <joint name="group_1_fastened_joint_24" type="fixed">
+        <origin xyz="0 -0.00175 0" rpy="0 0 -1.2962e-44" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_5" />
+        <child link="dm_j4340_controller_cover_5" />
+    </joint>
+    <joint name="group_1_fastened_joint_25" type="fixed">
+        <origin xyz="-5.55112e-17 -0.00175 0" rpy="7.00649e-46 -0 0" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_6" />
+        <child link="dm_j4340_controller_cover_6" />
+    </joint>
+    <joint name="group_1_fastened_joint_3" type="fixed">
         <origin xyz="0 0 0" rpy="2.46519e-32 -8.59206e-33 -3.9443e-31" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_rotor" />
         <child link="dm_j10010l_side_cover" />
     </joint>
-    <joint name="group_1_fastened_joint_3" type="fixed">
+    <joint name="group_1_fastened_joint_4" type="fixed">
         <origin xyz="0 0 0" rpy="2.46519e-32 -8.59206e-33 -3.9443e-31" />
         <axis xyz="-0 -0 -1" />
         <parent link="dm_j10010l_side_cover" />
         <child link="dm_j10010l_controller_cover" />
     </joint>
-    <joint name="group_1_fastened_joint_4" type="fixed">
-        <origin xyz="0 -0.00175 0" rpy="0 -0 0" />
-        <axis xyz="0 0 1" />
-        <parent link="dm_j4340_motor_1" />
-        <child link="dm_j4340_controller_cover_1" />
-    </joint>
     <joint name="group_1_fastened_joint_5" type="fixed">
-        <origin xyz="0 -0.00025 0" rpy="-5.8789e-32 0 0" />
+        <origin xyz="0 -0.00175 0" rpy="-9.86076e-32 7.88861e-31 1.54465e-37" />
         <axis xyz="0 0 1" />
-        <parent link="dm_j4340_motor_5" />
-        <child link="dm_j4340_controller_cover_5" />
+        <parent link="dm_j4340_motor_9" />
+        <child link="dm_j4340_controller_cover_9" />
     </joint>
     <joint name="group_1_fastened_joint_6" type="fixed">
-        <origin xyz="-1.73472e-18 0.0659355 5.55112e-17" rpy="1.2326e-32 1.70026e-74 -2.75883e-42" />
+        <origin xyz="-2.77556e-17 -0.00175 -5.55112e-17" rpy="3.34096e-52 -9.86076e-32 -6.77626e-21" />
         <axis xyz="0 0 1" />
-        <parent link="dm_j10010l_rotor_8" />
-        <child link="dm_j10010l_stator__1__2" />
+        <parent link="dm_j4340_motor_3" />
+        <child link="dm_j4340_controller_cover_3" />
     </joint>
     <joint name="group_1_fastened_joint_7" type="fixed">
-        <origin xyz="-1.73472e-18 0.0659355 5.55112e-17" rpy="1.2326e-32 1.70026e-74 -2.75883e-42" />
-        <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_rotor_8" />
-        <child link="dm_j10010l_side_cover_8" />
+        <origin xyz="-2.77556e-17 0 6.93889e-18" rpy="-7.88861e-31 -1.97215e-31 6.77626e-21" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_2" />
+        <child link="dm_j4340_controller_cover_2" />
     </joint>
     <joint name="group_1_fastened_joint_8" type="fixed">
-        <origin xyz="-1.73472e-18 -3.46945e-18 5.55112e-17" rpy="1.2326e-32 1.70026e-74 -2.75883e-42" />
-        <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_side_cover_8" />
-        <child link="dm_j10010l_controller_cover_8" />
+        <origin xyz="0 -0.00025 0" rpy="-5.8789e-32 0 0" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_13" />
+        <child link="dm_j4340_controller_cover_13" />
     </joint>
     <joint name="group_1_fastened_joint_9" type="fixed">
-        <origin xyz="1.11022e-16 -0.00025 0" rpy="1.50704e-32 -0 0" />
+        <origin xyz="-1.73472e-18 0.0659355 5.55112e-17" rpy="1.2326e-32 1.70026e-74 -2.75883e-42" />
         <axis xyz="0 0 1" />
-        <parent link="dm_j4340_motor_4" />
-        <child link="dm_j4340_controller_cover_4" />
+        <parent link="dm_j10010l_rotor_2" />
+        <child link="dm_j10010l_stator__1__2" />
     </joint>
     <joint name="left_ankle_pitch_joint" type="revolute">
         <origin xyz="0.0065 0.001925 0.011" rpy="0.0174533 -8.29718e-15 1.5708" />
         <axis xyz="1 0 0" />
         <parent link="calf_bearing_lock_3" />
         <child link="cross_bearing_1" />
-        <limit effort="1" velocity="1" lower="-0.6" upper="0.6" />
+        <limit effort="27" velocity="8" lower="-0.6" upper="0.6" />
     </joint>
     <joint name="left_ankle_roll_joint" type="revolute">
         <origin xyz="0.02 0.02 -1.11022e-16" rpy="0 1.5708 1.5708" />
         <axis xyz="0 0 1" />
         <parent link="cross_bearing_1" />
         <child link="ankle_roll_connector_3" />
-        <limit effort="1" velocity="1" lower="-0.5" upper="0.5" />
+        <limit effort="27" velocity="8" lower="-0.5" upper="0.5" />
+    </joint>
+    <joint name="left_elbow_joint" type="revolute">
+        <origin xyz="-6.93889e-18 -0.00175 0" rpy="0 -1.5708 1.5708" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor" />
+        <child link="shoulder_bracket_b" />
+        <limit effort="27" velocity="8" lower="-0.6" upper="1.57" />
     </joint>
     <joint name="left_hip_pitch_joint" type="revolute">
         <origin xyz="0 -0.0659355 -5.55112e-17" rpy="-1.5708 -0.523599 -3.14159" />
         <axis xyz="0 0 1" />
-        <parent link="dm_j10010l_rotor_4" />
+        <parent link="dm_j10010l_rotor_5" />
         <child link="upper_leg_1" />
-        <limit effort="1" velocity="1" lower="-0.698132" upper="2.0944" />
+        <limit effort="120" velocity="25" lower="-2.094" upper="0.7854" />
     </joint>
     <joint name="left_hip_roll_joint" type="revolute">
         <origin xyz="0 -0.0659355 -1.38778e-17" rpy="0 1.5708 -1.5708" />
         <axis xyz="0 0 1" />
-        <parent link="dm_j10010l_rotor_6" />
+        <parent link="dm_j10010l_rotor_7" />
         <child link="hip_connector_a_1" />
-        <limit effort="1" velocity="1" lower="-0.999829" upper="0.199997" />
+        <limit effort="120" velocity="25" lower="-0.2" upper="1" />
     </joint>
     <joint name="left_hip_yaw_joint" type="revolute">
         <origin xyz="0 -0.0659355 -1.37043e-16" rpy="-1.5708 -2.55767e-16 -3.14159" />
         <axis xyz="0 0 1" />
-        <parent link="dm_j10010l_rotor_7" />
+        <parent link="dm_j10010l_rotor_8" />
         <child link="hip_connector_a_3" />
-        <limit effort="1" velocity="1" lower="-0.199997" upper="1" />
+        <limit effort="120" velocity="25" lower="-1" upper="0.2" />
     </joint>
     <joint name="left_knee_joint" type="revolute">
         <origin xyz="-9.71445e-17 -0.0654355 1.11022e-16" rpy="-1.5708 0.00872665 -3.14159" />
         <axis xyz="0 0 1" />
         <parent link="dm_j10010l_stator__1__2" />
         <child link="lower_leg_1" />
-        <limit effort="1" velocity="1" lower="-0.2" upper="2.5" />
+        <limit effort="120" velocity="25" lower="-0.2" upper="2.5" />
+    </joint>
+    <joint name="left_shoulder_pitch_joint" type="revolute">
+        <origin xyz="0 -0.00175 -3.88578e-16" rpy="1.5708 -0 -1.5708" />
+        <axis xyz="1 0 0" />
+        <parent link="dm_j4340_motor_8" />
+        <child link="shoulder_bracket_a_1" />
+        <limit effort="27" velocity="8" lower="-3.14" upper="1.57" />
+    </joint>
+    <joint name="left_shoulder_roll_joint" type="revolute">
+        <origin xyz="-2.77556e-17 -0.00175 -5.55112e-17" rpy="1.5708 -5.5434e-25 9.74653e-24" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_3" />
+        <child link="shoulder_bracket_b_3" />
+        <limit effort="27" velocity="8" lower="-0.25" upper="3.14" />
+    </joint>
+    <joint name="left_shoulder_yaw_joint" type="revolute">
+        <origin xyz="0 -0.049 -0.02" rpy="-3.14159 6.77626e-21 9.86076e-32" />
+        <axis xyz="0 1 0" />
+        <parent link="shoulder_bracket_b_3" />
+        <child link="dm_j4340_motor_1" />
+        <limit effort="27" velocity="8" lower="-1.57" upper="1.57" />
+    </joint>
+    <joint name="left_wrist_roll_joint" type="revolute">
+        <origin xyz="-4.16334e-17 -0.05 -0.02" rpy="0 -1.5708 3.14159" />
+        <axis xyz="0 1 0" />
+        <parent link="shoulder_bracket_b" />
+        <child link="dm_j4340_motor_2" />
+        <limit effort="27" velocity="8" lower="-1.57" upper="1.57" />
     </joint>
     <joint name="mate_connector_1" type="fixed">
         <origin xyz="0.0186124 0.414076 -0.09485" rpy="-1.5708 -5.39499e-16 -0.00872665" />
         <axis xyz="0 0 1" />
         <parent link="lower_leg_1" />
-        <child link="mate_connector_1" />
+        <child link="mate_connector_1_1" />
     </joint>
     <joint name="mate_connector_1_1" type="fixed">
         <origin xyz="-0.0148153 0.413539 -0.09485" rpy="1.5708 -1.98204e-15 3.14159" />
         <axis xyz="0 0 1" />
         <parent link="lower_leg" />
-        <child link="mate_connector_1_1" />
+        <child link="mate_connector_1" />
     </joint>
     <joint name="right_ankle_pitch_joint" type="revolute">
         <origin xyz="0.0065 0.001925 0.011" rpy="4.72928e-16 -9.18114e-17 1.5708" />
         <axis xyz="-1 0 0" />
         <parent link="calf_bearing_lock" />
         <child link="cross_bearing" />
-        <limit effort="1" velocity="1" lower="-0.6" upper="0.6" />
+        <limit effort="27" velocity="8" lower="-0.6" upper="0.6" />
     </joint>
     <joint name="right_ankle_roll_joint" type="revolute">
         <origin xyz="0.02 0.02 -1.11022e-16" rpy="0 1.5708 1.5708" />
         <axis xyz="-0 -0 -1" />
         <parent link="cross_bearing" />
         <child link="ankle_roll_connector_1" />
-        <limit effort="1" velocity="1" lower="-0.5" upper="0.5" />
+        <limit effort="27" velocity="8" lower="-0.5" upper="0.5" />
+    </joint>
+    <joint name="right_elbow_joint" type="revolute">
+        <origin xyz="0 -0.00175 -6.93889e-18" rpy="0 1.5708 4.71239" />
+        <axis xyz="0 0 -1" />
+        <parent link="dm_j4340_motor_5" />
+        <child link="shoulder_bracket_b_2" />
+        <limit effort="27" velocity="8" lower="-0.6" upper="1.57" />
     </joint>
     <joint name="right_hip_pitch_joint" type="revolute">
         <origin xyz="-4.16334e-17 -0.0659355 -2.77556e-17" rpy="-1.5708 0.523599 -3.14159" />
         <axis xyz="-0 -0 -1" />
-        <parent link="dm_j10010l_rotor_2" />
+        <parent link="dm_j10010l_rotor_3" />
         <child link="upper_leg" />
-        <limit effort="1" velocity="1" lower="-0.174533" upper="2.26893" />
+        <limit effort="120" velocity="25" lower="-2.094" upper="0.7854" />
     </joint>
     <joint name="right_hip_roll_joint" type="revolute">
         <origin xyz="5.55112e-17 -0.0659355 -5.55112e-17" rpy="0 -1.5708 1.5708" />
         <axis xyz="0 0 1" />
         <parent link="dm_j10010l_rotor__3_" />
         <child link="hip_connector_a_2" />
-        <limit effort="1" velocity="1" lower="-0.199997" upper="1" />
+        <limit effort="120" velocity="25" lower="-1" upper="0.2" />
     </joint>
     <joint name="right_hip_yaw_joint" type="revolute">
         <origin xyz="1.38778e-17 -0.0659355 5.72459e-17" rpy="-1.5708 -5.49033e-16 -3.14159" />
         <axis xyz="0 0 1" />
         <parent link="dm_j10010l_rotor__4_" />
         <child link="hip_connector_a" />
-        <limit effort="1" velocity="1" lower="-0.199997" upper="1" />
+        <limit effort="120" velocity="25" lower="-0.2" upper="1" />
     </joint>
     <joint name="right_knee_joint" type="revolute">
         <origin xyz="-6.59195e-17 -0.0654355 -1.11022e-16" rpy="-1.5708 -7.75026e-16 -3.14159" />
         <axis xyz="0 0 -1" />
-        <parent link="dm_j10010l_stator__1__4" />
+        <parent link="dm_j10010l_stator__1__1" />
         <child link="lower_leg" />
-        <limit effort="1" velocity="1" lower="-0.2" upper="2.5" />
+        <limit effort="120" velocity="25" lower="-0.2" upper="2.5" />
+    </joint>
+    <joint name="right_shoulder_pitch_joint" type="revolute">
+        <origin xyz="-1.38778e-17 -0.00175 0" rpy="1.5708 -0 -1.5708" />
+        <axis xyz="-1 0 0" />
+        <parent link="dm_j4340_motor_9" />
+        <child link="shoulder_bracket_a_2" />
+        <limit effort="27" velocity="8" lower="-3.14" upper="1.57" />
+    </joint>
+    <joint name="right_shoulder_roll_joint" type="revolute">
+        <origin xyz="-5.55112e-17 -0.00175 2.77556e-17" rpy="0 1.5708 -1.5708" />
+        <axis xyz="0 0 1" />
+        <parent link="dm_j4340_motor_6" />
+        <child link="shoulder_bracket_b_1" />
+        <limit effort="27" velocity="8" lower="-3.14" upper="0.25" />
+    </joint>
+    <joint name="right_shoulder_yaw_joint" type="revolute">
+        <origin xyz="0 -0.05 -0.02" rpy="0 1.5708 -3.14159" />
+        <axis xyz="0 1 0" />
+        <parent link="shoulder_bracket_b_1" />
+        <child link="dm_j4340_motor_7" />
+        <limit effort="27" velocity="8" lower="-1.57" upper="1.57" />
+    </joint>
+    <joint name="right_wrist_roll_joint" type="revolute">
+        <origin xyz="0 -0.05 -0.02" rpy="-1.61716e-29 4.71344e-29 -3.14159" />
+        <axis xyz="0 1 0" />
+        <parent link="shoulder_bracket_b_2" />
+        <child link="dm_j4340_motor_4" />
+        <limit effort="27" velocity="8" lower="-1.57" upper="1.57" />
     </joint>
     <joint name="waist_yaw" type="revolute">
-        <origin xyz="-3.46945e-18 -0.0659355 -5.89019e-21" rpy="1.5708 8.08706e-16 -9.45117e-16" />
+        <origin xyz="-1.04083e-17 -0.0659355 -3.26795e-18" rpy="1.5708 6.57474e-16 -8.14127e-16" />
         <axis xyz="0 0 1" />
         <parent link="dm_j10010l_rotor" />
         <child link="waist_bearing_mount" />
-        <limit effort="1" velocity="1" lower="-3.14159" upper="3.14159" />
+        <limit effort="120" velocity="25" lower="-3.14" upper="3.14" />
     </joint>
 </robot>
